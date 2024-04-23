@@ -19,3 +19,9 @@ Kelas : Advance Programming - A
     - Terdapat 25 message yang dikirim oleh publisher dalam waktu yang bersamaan
     - Consumer membaca setiap message dalam interval 1 detik
       ![Slow Customer Simulation](./assets/images/rabbitmq-slow-customer-reading.png)
+4. _Multi Customer Simulation_
+    - Terdapat tiga customer dan satu publisher (kanan atas). Dalam sekali publish, publisher mengirimkan 5 messages. Setiap customer akan membaca message yang tersedia di queue. 
+        ![Console of multi customer and one publisher](./assets/images/console-multi-consumer.png)
+
+    - Garis customer ack (warna ungu) memiliki peningkatan yang lebih besar dibandingkan dengan kasus dimana hanya terdapat 1 customer. Tentunya hal ini merupakan suatu performance improvement dalam proses komunikasi antar publisher-customer 
+        ![Chart of Multi Customer Simulation](./assets/images/rabbitmq-console-multi-consumer.png)
