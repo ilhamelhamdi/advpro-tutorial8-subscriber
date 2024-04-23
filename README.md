@@ -1,5 +1,9 @@
 # Tutorial 8 - Subscriber
 
+Nama    : Ilham Abdillah Alhamdi
+NPM     : 2206081194
+Kelas   : Advance Programming - A
+
 1. Apa itu AMPQ ?
    AMQP singkatan dari Advanced Message Queuing Protocol. Ini adalah protokol lapisan aplikasi standar terbuka untuk middleware berorientasi pesan. Dalam istilah yang lebih sederhana, ini adalah protokol untuk pertukaran pesan antara aplikasi atau komponen.
 
